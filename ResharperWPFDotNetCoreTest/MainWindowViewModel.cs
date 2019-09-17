@@ -6,7 +6,7 @@
 
         public MainWindowViewModel()
         {
-            SomeString = "Hello Jetbrains";
+            SomeString = "Hello Jetbrains!";
         }
     }
 }

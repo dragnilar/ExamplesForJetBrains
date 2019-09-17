@@ -13,6 +13,10 @@
         <local:MainWindowViewModel />
     </Window.DataContext>
     <Grid>
-        <TextBlock Text="{Binding SomeString}" />
+        <TextBlock
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="30"
+            Text="{Binding SomeString}" />
     </Grid>
 </Window>
